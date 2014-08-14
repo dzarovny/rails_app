@@ -2,8 +2,10 @@
 
 one:
   title: MyString
-  content: MyText
+  body: MyText
+  published: false
 
 two:
   title: MyString
-  content: MyText
+  body: MyText
+  published: false

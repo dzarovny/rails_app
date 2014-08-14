@@ -13,3 +13,29 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#home { 
+	background: image-url('fuckwinter_bkg.jpg'); 50% 0 repeat fixed {} min-height: 960px; 
+	height: 960px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative;
+}
+
+#home article { 
+  height: 458px; 
+  position: absolute; 
+  text-align: center; 
+  top: 0px; 
+  width: 100%; 
+}
+
+#about { 
+	background: image-url('fuckwinter_parallax.png'); 50% 0 repeat fixed {} min-height: 960px; 
+	height: 960px; 
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+}

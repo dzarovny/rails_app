@@ -1,4 +1,8 @@
-  <h1>Listing posts</h1>
+<section id="home" data-type="background" data-speed="10">  
+  <article id="about" data-type="background" data-speed="10"></article>                        
+</section>   
+
+<h1>Listing posts</h1>
 
   <table>
     <thead>
@@ -13,7 +17,7 @@
       <% @posts.each do |post| %>
         <tr>
           <td><%= post.title %></td>
-          <td><%= post.content %></td>
+          <td><%= post.body %></td>
           <td><%= link_to 'Show', post %></td>
           <td><%= link_to 'Edit', edit_post_path(post) %></td>
           <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
